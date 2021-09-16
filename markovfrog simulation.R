@@ -13,7 +13,6 @@ if (0<=u_1 && u_1<=0.5){
 
 ## The markov process after time 0
 
-
 for (i in 2:50) {
   u_i<-runif(1,0,1)
   if (x[i-1]==1){
